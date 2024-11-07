@@ -18,7 +18,11 @@ class MyPortfolioText extends StatelessWidget {
           duration: const Duration(milliseconds: 200),
           builder: (context, value, child) {
             return Text(
-              "Kamran's ",
+
+
+
+              "My ",
+
               style: Theme.of(context).textTheme.headlineLarge!.copyWith(
                 color: Colors.white,
                 fontWeight: FontWeight.w900,
